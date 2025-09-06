@@ -1,4 +1,4 @@
-# Jane Doe
+# Ben Cheng
 
 ![Ben Cheng Profile](./BenChengPhoto.jpg)
 
