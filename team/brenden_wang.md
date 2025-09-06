@@ -9,9 +9,6 @@
 
 - [GitHub](https://github.com/Brenden-Yiping-Wang)
 - [LinkedIn](https://www.linkedin.com/in/brenden-yiping-wang-b9232927b/)
-- [Twitter](#)
-- [Website](#)
-- [Resume](#)
 
 ## About Brenden
 
