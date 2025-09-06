@@ -19,8 +19,8 @@ Brenden is a Full Stack Software Developer with hands-on experience in building 
 - AI/ML Integration & Prompt Engineering
 - Full Stack Development (Frontend/Backend)
 - Cloud Architecture (AWS Lambda, SQS)
-- CI/CD Pipeline Optimization
-- Real-time Applications (WebSockets)
+- Effective Communication: Clearly explains technical ideas to team members and stakeholders.
+- Team Collaboration: Works well in cross-functional teams to achieve project goals.
 
 ## Weaknesses
 
