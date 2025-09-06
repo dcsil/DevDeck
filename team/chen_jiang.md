@@ -12,6 +12,7 @@
 
 ## About Chen
 
+
 Chen is a fourth-year Computer Science Specialist student at the University of Toronto. She recently completed a 12-month internship at Roadpost, where she gained extensive experience in full-stack development, AWS infrastructure, and Temporal. She is also passionate about leveraging AI tools to improve software development efficiency and creativity. Outside of academics and work, Chen enjoys watching movies, playing guitar, and exploring creative hobbies that help her stay inspired and balanced.
 
 ## Strengths
