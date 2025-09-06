@@ -14,7 +14,7 @@
 
 ## About Ben
 
-Ben Cheng is a fourth-year Computer Science and Statistics student at the University of Toronto, maintaining a 3.92 GPA. Over the past year, he worked as a 5G ML Software Developer at Ericsson, applying reinforcement learning algorithms such as DQN and PPO to optimize real-time wireless scheduling. He also worked on system integration in C++ and automated performance monitoring with InfluxDB and Grafana. In addition, he has contributed to the Centre for Social Services Engineering by developing a GraphDB-powered semantic search engine and to the Middleware Systems Research Group by building a robust database and web system. His research experience spans diffusion-based image generation using multi-GPU training with PyTorch and Accelerate, and LSTM-based time-series analysis.
+Ben Cheng is a fourth-year Computer Science Specialist at the University of Toronto. Over the past year, he worked as a 5G Machine Learning Software Developer at Ericsson, where he applied reinforcement learning algorithms such as DQN and PPO to optimize real-time wireless scheduling. He also developed strong proficiency in time-series data analysis, CI/CD pipeline implementation, C++ embedded programming, and deep learning. With experience across multiple areas of computer science and exposure to diverse technology stacks, he is highly adaptable and passionate about learning and advancing new technologies.
 
 ## Strengths
 
