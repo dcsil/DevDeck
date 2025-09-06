@@ -7,11 +7,10 @@
 
 ## Links
 
-- [GitHub](#https://github.com/BenCheng2)
-- [LinkedIn](#https://www.linkedin.com/in/bencheng2/)
-- [Twitter](#)
-- [Website](#https://bencheng2.github.io/)
-- [Resume](#https://bencheng2.github.io/files/CV_20250904.pdf)
+- [GitHub](https://github.com/BenCheng2)
+- [LinkedIn](https://www.linkedin.com/in/bencheng2/)
+- [Website](https://bencheng2.github.io/)
+- [Resume](https://bencheng2.github.io/files/CV_20250904.pdf)
 
 ## About Jane
 
