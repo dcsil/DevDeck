@@ -1,4 +1,10 @@
+## Devdeck principles
+
 [Devdeck Principles](./principles.md)
+
+## Diversity
+
+[Diversity](./diversity.md)
 
 ## People at Devdeck
 
@@ -6,11 +12,11 @@
 - [Brenden Wang](./brenden_wang.md)
 - [Chen Jiang](./chen_jiang.md)
 - [Leon Wang](./leon_wang.md)
-- ...
 
 ### Team Leader
 
 [Chen Jiang](./chen_jiang.md)
+
 Chen Jiang is selected as the team leader because she has the most experience in running projects, and is very responsible. She consistently ensures that tasks are completed on time, communicates clearly with team members, and takes initiative to address any challenges that arise. Her reliability and dedication make her an excellent leader for the team.
 
 #### Responsibilities
@@ -20,4 +26,3 @@ Chen Jiang is selected as the team leader because she has the most experience in
 - **Brenden Wang**: Full Stack Developer & AI Integration Lead — Develops both frontend and backend features, integrates AI technologies, and optimizes cloud infrastructure.
 - **Leon Wang**: Software Developer — Contributes to software development, assists with coding tasks, and supports testing and documentation.
 
-- ...
