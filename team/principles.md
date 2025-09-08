@@ -1,8 +1,9 @@
 Team Principles
 ---
 
-The team principles doc is a roughly 1-page document that covers expectations of the team members, expectations for communication, roles and responsibilities, work delegation, etc. The document will cover the entire team, including CSC454/2527 students.  
-Optionally, team values can also be described.
+This document outlines the principles that guide how our team works together throughout the course. Its purpose is to set clear expectations for communication, collaboration, and accountability, ensuring that all members are aligned. These principles are not meant to be rigid rules, but rather a shared agreement that helps us stay organized, respectful, and effective as a team.  
+
+By defining our approach to communication, meetings, work delegation, and conflict resolution, we aim to create an environment where everyone feels supported, responsibilities are clear, and contributions are valued. This document will evolve as our team grows, and we will revisit it regularly to adapt to new challenges and lessons learned.  
 
 Communication
 ---
