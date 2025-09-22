@@ -50,7 +50,10 @@ As a frontend developer, I want to create an interactive, elegant, and well-read
 - **Vercel** — Fast, seamless React deployment  
 
 ### Summary of findings
-Working with React was both challenging and rewarding. The component-based model made interactive UIs intuitive; once props/state clicked, development accelerated. VS Code + Prettier kept code clean. Official docs + quick searches helped with **hooks** (e.g., `useEffect`), **cross-component state**, and **dependency/version** issues. **React DevTools** sometimes obscured state changes in complex trees. **Material-UI** sped up UI but conflicted with custom CSS. These hurdles improved our understanding of optimization and dependency management. (Tailwind to be added)
+Working with React was both challenging and rewarding. Its component-based structure made building interactive interfaces intuitive, and after we understood props and state, development felt smoother. VS Code with Prettier kept our code clean, while React Documentation and Google Search together provided clarity when we faced challenges such as understanding hooks like useEffect, managing state across multiple components, and resolving dependency or version conflicts. This combination of official guidance and quick community solutions helped us overcome problems more effectively. npm/yarn worked smoothly most of the time, but version mismatches occasionally popped up and slowed us down. On the other hand, React Developer Tools did not always display state changes clearly in complex components, which sometimes made debugging harder than expected. Similarly, while Material-UI accelerated UI design, styling conflicts with custom CSS created extra work and confusion.(MUI不好用，改了tailwind
+
+These moments of confusion were frustrating but ultimately taught us important lessons about optimization and dependency management. Overall, the combination of strong tools, reliable documentation, and community support helped us push through challenges and made the experience both productive and rewarding.
+
 
 ## 7. Recommendations
 
