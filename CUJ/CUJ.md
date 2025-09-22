@@ -23,7 +23,7 @@ As a frontend developer, I want to create an interactive, elegant, and well-read
 - **Familiarity with Platform:** Used JavaScript before; first time building a full React app  
 
 ### Persona: Brenden Yiping Wang
-- **Role / Background:** Full-Stack Developer at Chatsimple; cloud & AI systems  
+- **Role / Background:** 4th-year CS Specialist; Full-Stack Developer at Chatsimple; cloud & AI systems
 - **Experience Level:** Proficient full-stack; some modern frontend frameworks  
 - **Familiarity with Platform:** Prior exposure to React; not expert-level  
 
@@ -38,16 +38,16 @@ As a frontend developer, I want to create an interactive, elegant, and well-read
 - **Familiarity with Platform:** Used Node.js; limited experience building full React apps  
 
 ## 6. Tools Used
-- **React** — Core library for reusable, interactive UIs  
-- **VS Code** (+ **Prettier**) — Editor & formatting  
-- **Google Search** — Tutorials, Q&A, troubleshooting  
-- **React Documentation** — Concepts, APIs, patterns  
-- **npm / yarn** — Dependency and script management  
-- **React Developer Tools** (Chrome/Firefox) — Inspect component trees  
-- **Material-UI** — Component library (initially used; styling conflicts)  
-- **Tailwind CSS** — Utility-first styling (switched to Tailwind; faster and more consistent)  
-- **GitHub** — Version control & collaboration  
-- **Vercel** — Fast, seamless React deployment  
+- **React** – Core library for building reusable and interactive user interfaces.  
+- **VS Code** – Primary code editor, enhanced with Prettier for clean, consistent code.  
+- **Google Search** – A quick way to find answers, tutorials, and solutions when learning and developing.  
+- **React Documentation** – Reliable source for understanding concepts, APIs, and recommended patterns.  
+- **npm / yarn** – Package managers for installing, updating, and managing dependencies.  
+- **React Developer Tools** (Chrome/Firefox Extension) – Specialized extension to inspect React component hierarchies directly in the browser.  
+- **Material-UI** – Styling libraries to speed up UI design with ready-made, customizable components.  
+- **Github** - Platform for version control and collaboration using Git.  
+- **Taliwind** - Utility-first CSS framework for fast, customizable styling.  
+- **Vercel** - Cloud platform for fast, seamless React app deployment.  
 
 ### Summary of findings
 Working with React was both challenging and rewarding. Its component-based structure made building interactive interfaces intuitive, and after we understood props and state, development felt smoother. VS Code with Prettier kept our code clean, while React Documentation and Google Search together provided clarity when we faced challenges such as understanding hooks like useEffect, managing state across multiple components, and resolving dependency or version conflicts. This combination of official guidance and quick community solutions helped us overcome problems more effectively. npm/yarn worked smoothly most of the time, but version mismatches occasionally popped up and slowed us down. On the other hand, React Developer Tools did not always display state changes clearly in complex components, which sometimes made debugging harder than expected. Similarly, while Material-UI accelerated UI design, styling conflicts with custom CSS created extra work and confusion.(MUI不好用，改了tailwind
@@ -58,14 +58,12 @@ These moments of confusion were frustrating but ultimately taught us important l
 ## 7. Recommendations
 
 ### Product Recommendations
-- React versions and ecosystem are fragmented; beginners can get lost choosing tools.  
-- Official docs + community tutorials are great for basics but thin for deep mastery; learning path can feel unclear.  
-- Abstract concepts (hook lifecycles, reconciliation) lack comprehensive, cohesive resources for deep application.
+React versions and component ecosystem are overly fragmented, making it easy for beginners to get lost when choosing tools; the official documentation and community tutorials are insufficient for complete mastery, leaving the learning path unclear; and some abstract design concepts (such as hooks lifecycle and reconciliation) lack comprehensive resources, making it difficult for developers to deeply understand and apply them correctly.  
+
 
 ### Recommendations for Future Users
-- Explore the broader ecosystem first (routing, state, forms, styling) to choose the right tools.  
-- Don’t reinvent the wheel—search for established community solutions before custom-building.  
-- Maintain consistent coding standards (lint/format, folder structure) for readability and long-term maintainability.
+It is recommended to spend time exploring the broader React ecosystem to understand the variety of available components and libraries; when encountering a new requirement, avoid reinventing the wheel and first search for established community solutions; and throughout development, maintain consistent coding practices to ensure readability and long-term maintainability of the project.
+
 
 ## 8. Highlights & Lowlights
 
