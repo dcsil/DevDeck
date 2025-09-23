@@ -50,9 +50,12 @@ As a frontend developer, I want to create an interactive, elegant, and well-read
 - **Vercel** - Cloud platform for fast, seamless React app deployment.  
 
 ### Summary of findings
-Working with React was both challenging and rewarding. Its component-based structure made building interactive interfaces intuitive, and after we understood props and state, development felt smoother. VS Code with Prettier kept our code clean, while React Documentation and Google Search together provided clarity when we faced challenges such as understanding hooks like useEffect, managing state across multiple components, and resolving dependency or version conflicts. This combination of official guidance and quick community solutions helped us overcome problems more effectively. npm/yarn worked smoothly most of the time, but version mismatches occasionally popped up and slowed us down. On the other hand, React Developer Tools did not always display state changes clearly in complex components, which sometimes made debugging harder than expected. Similarly, while Material-UI accelerated UI design, styling conflicts with custom CSS created extra work and confusion.(MUI不好用，改了tailwind
+Working with React was both challenging and rewarding. Its component-based structure made building interactive interfaces intuitive, and after we understood props and state, development became even smoother. VS Code with Prettier kept our code clean, while React Documentation and Google Search together provided clarity when we faced challenges such as learning hooks, managing state across multiple components, and resolving dependency or version conflicts. 
 
-These moments of confusion were frustrating but ultimately taught us important lessons about optimization and dependency management. Overall, the combination of strong tools, reliable documentation, and community support helped us push through challenges and made the experience both productive and rewarding.
+We ran into several issues along the way. First, npm/yarn sometimes caused version mismatches, which slowed progress and forced us to spend more time on dependency management. Second, React Developer Tools struggled to display state changes in complex components, making debugging a pain point. Third, while Material-UI initially accelerated UI development, styling conflicts with custom CSS made it frustrating to maintain, which eventually led us to switch to Tailwind for faster and more flexible design.
+
+These moments of confusion were frustrating but ultimately turned into valuable insights. We learned the importance of locking package versions to avoid build breaks, gained a deeper understanding of how React’s re-rendering works by debugging without over-relying on tools, and discovered that Tailwind’s utility-first approach gave us cleaner, more consistent styling compared to Material-UI. Overall, the strong ecosystem, reliable documentation, and community support helped us push through challenges and made the experience both productive and rewarding.
+
 
 
 ## 7. Recommendations
@@ -112,5 +115,3 @@ It is recommended to spend time exploring the broader React ecosystem to underst
 | 6. Test locally                    | **What:** Ran React dev server; tested component rendering and flows. <br>**Why:** To ensure the app worked before deploying. <br> | ![image-20250921020505066](https://p.ipic.vip/w4f751.png) |
 | 7. Deploy React app                | **What:** Pushed repo to GitHub, it will trigger a GitHub action to deploy on Vercel automatically <br>**Why:** To host the app for customer use. <br> | ![image-20250921020730072](https://p.ipic.vip/pgb9t1.png) |
 | 8. Validate production             | **What:** Opened live React app on the browser, tested flows. <br>**Why:** To confirm production matched local behaviour. <br> | ![image-20250921021031041](https://p.ipic.vip/zo8eot.png) |
-
-- 
