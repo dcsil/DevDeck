@@ -6,7 +6,7 @@ We need a frontend framework to build an interactive user interface for our appl
 
 ### Options
 
-**React**: Component-based, widely adopted, strong ecosystem, large community, good support for integrations and testing tools.
+**React**: Component-based, widely adopted, strong ecosystem, large community, good support for integrations and testing tools. All the team members are familiar with React.
 
 **Angular**: Full-featured framework with built-in state management, routing, and dependency injection. Steeper learning curve and more opinionated structure.
 
@@ -14,7 +14,7 @@ We need a frontend framework to build an interactive user interface for our appl
 
 ### Decision
 
-We chose React for the frontend. It provides the best balance of flexibility, ecosystem support, and developer familiarity, which is critical for rapid iteration during the MVP phase.
+We chose React for the frontend. It provides the best balance of flexibility, ecosystem support, and developer familiarity, which is critical for rapid iteration during the MVP phase. Most importantly, all the team members are familiar with React.
 
 ### Status
 
