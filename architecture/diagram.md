@@ -1,11 +1,47 @@
-This file is a placeholder for the architecture diagram that is part of [Assignment 3 for CSC491](https://csc491.dcsil.ca/assignments/a3/)
+# Architecture Diagram Explanation
 
-It does **not** need to be a markdown file, or a mermaid diagram. Feel free to upload an image instead and use any file extension that Github supports. However, please keep the file name as 'diagram' to ease graading.
+## Diagram
 
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
+![Architecture Diagram](./diagram.png)
+
+## Explanation
+
+Our system is designed as a modular web application composed of a React frontend, a FastAPI backend containerized with Docker, a PostgreSQL database hosted on Amazon RDS, and an integration with the OpenAI API. We are using tools such as GitHub for version control, Postman for API testing, and Amazon CloudWatch for monitoring.
+
+### Frontend: React on Vercel
+
+We chose React for its strong community, reusable components, and developer familiarity. Hosting on Vercel offers instant deployments, automatic SSL, and preview environments, which greatly helps with the development process.
+**Trade-off**: Vercel emphasizes simplicity and static delivery, so if we later require server-side rendering (SSR) or advanced SEO, we may need to migrate to Next.js.
+
+### Backend: FastAPI on Docker + AWS EC2
+
+The FastAPI framework provides high performance and automatic OpenAPI documentation, which accelerates backend development and integration with API testing tools. Docker ensures consistent environments from local development to production. Deployment on Amazon EC2 offers full control over the runtime and networking.
+**Trade-off**: EC2 requires more manual scaling and maintenance compared to managed services like AWS Lambda. However, this approach gives us flexibility at low initial cost, with a clear upgrade path to container orchestration when needed.
+
+### Database: PostgreSQL on Amazon RDS
+
+We selected PostgreSQL for its maturity and support for advanced features such as JSONB, which can accommodate both structured and semi-structured data. Hosting it on Amazon RDS offloads operational burdens like backups and patching, while providing scalability and reliability.
+**Trade-off**: RDS is costlier than self-hosted options, but this is justified by the reduced maintenance effort and better reliability, which are crucial for long-term sustainability.
+
+### Vendor Integration: OpenAI API
+
+The OpenAI API allows us to deliver AI-powered features without managing our own models or inference infrastructure. The backend communicates with it securely over HTTPS.
+**Trade-off**: This introduces vendor dependency and potential issues with latency, rate limits, or cost. To mitigate this, we will maintain the option of switching to alternate providers or self-hosted models if required.
+
+### Engineering Toolchain
+
+**GitHub**: Centralized repository for version control, Issues, Projects, and Releases, supporting collaboration and milestone tracking.
+
+**Postman**: Enables quick validation of APIs and serves as shared documentation for the team.
+
+**Amazon CloudWatch**: Provides monitoring and alerting on system metrics, ensuring visibility into application health.
+
+## Alignment with Use Cases
+
+This architecture directly supports our Critical User Journeys (CUJs) by ensuring:
+
+1. Fast iteration and user testing (React + Vercel previews, Postman collections).
+
+2. Reliable data management (PostgreSQL on RDS for strong integrity guarantees).
+
+3. Seamless AI integration (OpenAI API via FastAPI endpoints).
