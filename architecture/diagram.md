@@ -18,10 +18,10 @@ We chose React for its strong community, reusable components, and developer fami
 The FastAPI framework provides high performance and automatic OpenAPI documentation, which accelerates backend development and integration with API testing tools. Docker ensures consistent environments from local development to production. Deployment on Amazon EC2 offers full control over the runtime and networking.
 **Trade-off**: EC2 requires more manual scaling and maintenance compared to managed services like AWS Lambda. However, this approach gives us flexibility at low initial cost, with a clear upgrade path to container orchestration when needed.
 
-### Database: PostgreSQL on Amazon RDS (initial decision)
+### ~~Database: PostgreSQL on Amazon RDS~~(initial decision)
 
-~We selected PostgreSQL for its maturity and support for advanced features such as JSONB, which can accommodate both structured and semi-structured data. Hosting it on Amazon RDS offloads operational burdens like backups and patching, while providing scalability and reliability.
-**Trade-off**: RDS is costlier than self-hosted options, but this is justified by the reduced maintenance effort and better reliability, which are crucial for long-term sustainability.~
+~~We selected PostgreSQL for its maturity and support for advanced features such as JSONB, which can accommodate both structured and semi-structured data. Hosting it on Amazon RDS offloads operational burdens like backups and patching, while providing scalability and reliability.
+**Trade-off**: RDS is costlier than self-hosted options, but this is justified by the reduced maintenance effort and better reliability, which are crucial for long-term sustainability.~~
 
 ### Database: Dockerized PostgreSQL on AWS EC2 (changed decision)
 
