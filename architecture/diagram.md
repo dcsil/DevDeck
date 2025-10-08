@@ -1,8 +1,8 @@
 # Architecture Diagram Explanation
 
 ## Diagram
-
 ![Architecture Diagram](./diagram.png)
+![Architecture Diagram](./updated_diagram.png)
 
 ## Explanation
 
