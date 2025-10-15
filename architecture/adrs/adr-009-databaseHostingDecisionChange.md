@@ -1,4 +1,4 @@
-## ADR 005: Database Hosting — Dockerized PostgreSQL on EC2
+## ADR 009: Database Hosting — Dockerized PostgreSQL on EC2
 
 ### Context
 Our initial approach used **Amazon RDS** to host the PostgreSQL database. While RDS provides a managed service with automatic backups, replication, and maintenance, it also introduces higher costs and less control over runtime configuration.  
