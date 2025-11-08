@@ -10,7 +10,7 @@
 - **Zihao Wang** — 1008036698  
 
 ## 3. TL;DR (≤ 65 words)
-React is a powerful JavaScript library that transforms how businesses build digital experiences. It delivers fast, scalable, and interactive user interfaces through reusable components and efficient updates. By reducing development time and enhancing performance, React helps startups launch products faster, improve customer engagement, and stay competitive in the marketplace.
+React is a JavaScript library for building user interfaces from reusable components. We built a task board, hit an npm yarn version mismatch and rolled back to a stable set. MUI’s theming and overrides slowed us down and clashed with custom styles, so we switched to Tailwind for faster iteration and consistent design. We deployed on Vercel, delivering a cleaner and faster UI.
 
 ## 4. User Goal (≤ 2 sentences)
 As a frontend developer, I want to create an interactive, elegant, and well-readable interface with reusable React UI components, a huge ecosystem of libraries, and community support, so I can quickly iterate on modern designs and deliver a more tailored experience to users through our task board product.
