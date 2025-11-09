@@ -56,6 +56,15 @@ Automations were powerful but noisy. It integrates with Slack and other enterpri
 
 Our first dashboard tried to include every component and felt cluttered and slow. We rebuilt it around three essentials: what is due soon, what is blocked, and who is overloaded. After removing unnecessary widgets, the dashboard became lighter, more useful, and much faster to load.
 
+**Key takeaways for DevDeck:**
+
+- Reduce prompt burden. Provide structured input panels and auto context so users do not need long prompts to get quality output.
+- Prioritize speed for AI actions. Use lightweight execution paths and incremental updates so task creation feels instant.
+- Make automations quiet by default. Push high-priority notifications only and surface an easy-to-use noise control panel.
+- Design focused dashboards. Start with the three essentials and let users add modules gradually, with performance guardrails.
+- Keep AI chat in line on the same page as tasks and views to prevent context switching.
+
+
 ### Highlights and Lowlights Table:
 
 | Type     | Area / Theme                    | Observation                                                                                                     | Severity |
