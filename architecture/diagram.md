@@ -1,8 +1,8 @@
 # Architecture Diagram Explanation
 
 ## Diagram
-![Architecture Diagram](./diagram.png)
-![Architecture Diagram](./updated_diagram.png)
+
+![Architecture Diagram](./updated_diagram_2.png)
 
 ## Explanation
 
@@ -39,7 +39,6 @@ We migrated the database to **Amazon RDS (PostgreSQL)** to resolve recurrent con
 We adopted **SendGrid** for transactional email (team invitations now; password resets and notifications next). Integration uses the **v3 REST API** with **Dynamic Templates** and authenticated sending via **SPF/DKIM/DMARC**. Secrets are stored in our secrets manager as a scoped `SENDGRID_API_KEY` (mail send only). We ingest **Event Webhooks** (bounces, blocks, spam reports) to update invite status and drive retries/suppressions. Delivery metrics are surfaced in dashboards for observability and troubleshooting.
 
 **Trade-off**: Introduces a third-party dependency and volume-based cost. We accept this for significantly better **deliverability**, **analytics**, and lower operational burden versus building and maintaining SMTP infrastructure. We’ll monitor costs and consider multi-provider failover (e.g., SES) if reliability or pricing becomes a concern.
-
 
 ### Vendor Integration: OpenAI API
 
