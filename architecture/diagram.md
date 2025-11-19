@@ -45,13 +45,11 @@ We adopted **SendGrid** for transactional email (team invitations now; password 
 The OpenAI API allows us to deliver AI-powered features without managing our own models or inference infrastructure. The backend communicates with it securely over HTTPS.
 **Trade-off**: This introduces vendor dependency and potential issues with latency, rate limits, or cost. To mitigate this, we will maintain the option of switching to alternate providers or self-hosted models if required.
 
-
 ### Realtime Messaging & JWT Authentication (new decision)
 
-We adopted **Centrifugo** as a dedicated WebSocket/pub-sub server to power realtime features (chat, notifications, presence) without tying long-lived connections to the API tier. Channels (e.g., `project:{id}`, `ticket:{id}`, `chat:{roomId}`, `user:{id}`) let us broadcast updates with low latency and cleanly decouple fan-out from business logic. Where WebSockets aren’t available, we can fall back to SSE/HTTP streaming. In parallel, we standardized on **JWT-based, stateless authentication** across all APIs, enforcing verification via a shared `get_current_user` dependency and applying **RBAC** (Admin/Manager/Member) at route boundaries. Keys/secrets are managed centrally, tokens use short TTLs with rotation support, and logs mask PII/tokens for security. *(See ADR-013 for full rationale and rollout notes.)*
+We adopted **Centrifugo** as a dedicated WebSocket/pub-sub server to power realtime features (chat, notifications, presence) without tying long-lived connections to the API tier. Channels (e.g., `project:{id}`, `ticket:{id}`, `chat:{roomId}`, `user:{id}`) let us broadcast updates with low latency and cleanly decouple fan-out from business logic. Where WebSockets aren’t available, we can fall back to SSE/HTTP streaming. In parallel, we standardized on **JWT-based, stateless authentication** across all APIs, enforcing verification via a shared `get_current_user` dependency and applying **RBAC** (Admin/Manager/Member) at route boundaries. Keys/secrets are managed centrally, tokens use short TTLs with rotation support, and logs mask PII/tokens for security. _(See ADR-013 for full rationale and rollout notes.)_
 
 **Trade-off:** Introducing Centrifugo adds an extra service to deploy/monitor and requires careful channel-permission alignment, while JWTs demand disciplined token lifecycle management (expiry, refresh, clock skew). We accept this complexity in exchange for **lower-latency UX**, **stateless horizontally scalable APIs**, and a clearer separation of concerns between messaging delivery and application logic.
-
 
 ### Engineering Toolchain
 
